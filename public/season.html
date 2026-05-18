@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Meilleure période pour visiter cette destination au Maroc — guide saisonnier complet." />
+  <title>Meilleure saison — Découvrez le Maroc</title>
+  <link rel="icon" href="/assets/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <style>
+    /* ── Season page specific styles ── */
+    .season-hero {
+      position: relative;
+      height: 380px;
+      overflow: hidden;
+      background: #1a0a06;
+    }
+
+    .season-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .55;
+    }
+
+    .season-hero-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 48px 24px;
+      background: linear-gradient(to top, rgba(10, 3, 1, .75) 0%, transparent 60%);
+      text-align: center;
+    }
+
+    .season-hero-overlay .eyebrow {
+      color: #e8c36a;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .season-hero-overlay h1 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      color: #fff;
+      margin: 0 0 10px;
+    }
+
+    .season-hero-overlay .best-period {
+      background: var(--gold, #c9962a);
+      color: #fff;
+      font-weight: 700;
+      padding: 8px 22px;
+      border-radius: 999px;
+      font-size: 1rem;
+    }
+
+    .season-body {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .season-why {
+      background: #fff8f0;
+      border-left: 5px solid var(--gold, #c9962a);
+      border-radius: 14px;
+      padding: 24px 28px;
+      margin-bottom: 44px;
+      font-size: 1.08rem;
+      color: #4a3220;
+      line-height: 1.75;
+    }
+
+    .seasons-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .season-card {
+      background: #fff;
+      border-radius: 18px;
+      border: 1.5px solid rgba(100, 16, 28, .1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .06);
+      padding: 28px 26px;
+      transition: transform .25s, box-shadow .25s;
+    }
+
+    .season-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    }
+
+    .season-card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .season-emoji {
+      font-size: 2.2rem;
+      line-height: 1;
+    }
+
+    .season-name-wrap {}
+
+    .season-name {
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: #241710;
+    }
+
+    .season-months {
+      font-size: .82rem;
+      color: #967a65;
+      font-weight: 500;
+    }
+
+    /* Star rating */
+    .season-rating {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 14px;
+    }
+
+    .star {
+      width: 18px;
+      height: 18px;
+    }
+
+    .star.filled {
+      color: #c9962a;
+    }
+
+    .star.empty {
+      color: #ddd;
+    }
+
+    .season-desc {
+      color: #5a3d2b;
+      font-size: .95rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .season-tip-block {
+      background: linear-gradient(135deg, #8d1f2d 0%, #5a1222 100%);
+      border-radius: 18px;
+      padding: 32px 36px;
+      color: #fff;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .season-tip-icon {
+      font-size: 2.2rem;
+      flex-shrink: 0;
+    }
+
+    .season-tip-block h3 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #e8c36a;
+    }
+
+    .season-tip-block p {
+      margin: 0;
+      font-size: .97rem;
+      line-height: 1.72;
+    }
+
+    .season-back-bar {
+      background: #fff;
+      border-bottom: 1px solid rgba(100, 16, 28, .08);
+      padding: 14px 24px;
+    }
+
+    .season-back-bar a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--red-dark, #8d1f2d);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: .92rem;
+      transition: gap .2s;
+    }
+
+    .season-back-bar a:hover {
+      gap: 12px;
+    }
+
+    .skeleton-anim {
+      background: linear-gradient(90deg, #f0e8df 25%, #e8ddd4 50%, #f0e8df 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 8px;
+    }
+
+    @keyframes shimmer {
+      0% {
+        background-position: 200% 0
+      }
+
+      100% {
+        background-position: -200% 0
+      }
+    }
+
+    .loading-box {
+      height: 380px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Back bar -->
+  <div class="season-back-bar">
+    <a href="/" id="backLink">← Retour au site</a>
+  </div>
+
+  <!-- Hero -->
+  <div class="season-hero" id="heroSection">
+    <div class="skeleton-anim loading-box" id="heroSkeleton"></div>
+    <img id="heroImg" src="" alt="" style="display:none" />
+    <div class="season-hero-overlay" id="heroOverlay" style="display:none">
+      <p class="eyebrow" id="heroRegion"></p>
+      <h1 id="heroName"></h1>
+      <span class="best-period" id="heroPeriod"></span>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="season-body">
+    <div id="seasonContent" style="display:none">
+
+      <div class="season-why" id="seasonWhy"></div>
+
+      <div class="seasons-grid" id="seasonsGrid"></div>
+
+      <div class="season-tip-block" id="seasonTip">
+        <div class="season-tip-icon">💡</div>
+        <div>
+          <h3>Conseil pratique</h3>
+          <p id="seasonTipText"></p>
+        </div>
+      </div>
+
+    </div>
+    <div id="loadingMsg" style="text-align:center;padding:80px 0;color:#967a65;font-size:1.1rem">Chargement…</div>
+    <div id="errorMsg" style="display:none;text-align:center;padding:80px 0;color:#8d1f2d;font-size:1.1rem">
+      Destination introuvable. <a href="/" style="color:#8d1f2d;font-weight:700">Retour à l'accueil</a>
+    </div>
+  </div>
+
+  <script src="/assets/js/season.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfe7f1"/>
+      <stop offset="1" stop-color="#d8f0f3"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7d2a8"/>
+      <stop offset="0.48" stop-color="#f5e7c9"/>
+      <stop offset="1" stop-color="#d9b06d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#6a3d1d" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sea)"/>
+  <path d="M0 0 H1200 V760 H0 Z" fill="url(#sea)"/>
+  <polygon points="781.4,23.1 716.3,38.4 665.1,81.1 641.9,119.6 597.2,175.1 553.5,222.0 488.4,294.6 418.6,371.5 358.1,448.3 320.9,525.2 274.4,602.0 200.0,721.6 325.6,755.7 465.1,738.7 600.0,678.9 716.3,602.0 841.9,529.4 967.4,448.3 1074.4,380.0 1148.8,286.1 1162.8,158.0 1088.4,115.3 976.7,82.8 860.5,49.5 781.4,23.1" fill="url(#land)" stroke="#9e6b35" stroke-width="5" filter="url(#shadow)"/>
+  <path d="M781.4,23.1 716.3,38.4 665.1,81.1 641.9,119.6 597.2,175.1 553.5,222.0 488.4,294.6 418.6,371.5 358.1,448.3 320.9,525.2 274.4,602.0 200.0,721.6 325.6,755.7 465.1,738.7 600.0,678.9 716.3,602.0 841.9,529.4 967.4,448.3 1074.4,380.0 1148.8,286.1 1162.8,158.0 1088.4,115.3 976.7,82.8 860.5,49.5 781.4,23.1" fill="none" stroke="#ffffff" stroke-opacity="0.65" stroke-width="2"/>
+  <path d="M269.8,666.1 C502.3,572.1 632.6,461.1 883.7,409.9" fill="none" stroke="#c99a4b" stroke-width="4" stroke-dasharray="10 12" opacity="0.85"/>
+  <text x="42" y="58" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#7d1c2a">Morocco reference map</text>
+  <text x="42" y="92" font-family="Inter, Arial, sans-serif" font-size="20" fill="#6d5b48">Fallback local map shown when online tiles are blocked.</text>
+  <text x="42" y="710" font-family="Inter, Arial, sans-serif" font-size="18" fill="#6d5b48">Markers remain geolocated with Leaflet coordinates.</text>
+  
+      <g class="city city-marrakech">
+        <circle cx="522.0" cy="390.6" r="9" fill="white" opacity="0.95"/>
+        <circle cx="522.0" cy="390.6" r="5.5" fill="#a6192e"/>
+        <text x="538.0" y="416.6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Marrakech</text>
+      </g>
+      <g class="city city-casablanca">
+        <circle cx="555.1" cy="221.3" r="9" fill="white" opacity="0.95"/>
+        <circle cx="555.1" cy="221.3" r="5.5" fill="#176b93"/>
+        <text x="571.1" y="201.3" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Casablanca</text>
+      </g>
+      <g class="city city-fes">
+        <circle cx="802.7" cy="182.2" r="9" fill="white" opacity="0.95"/>
+        <circle cx="802.7" cy="182.2" r="5.5" fill="#a6192e"/>
+        <text x="818.7" y="164.2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Fes</text>
+      </g>
+      <g class="city city-chefchaouen">
+        <circle cx="775.5" cy="88.1" r="9" fill="white" opacity="0.95"/>
+        <circle cx="775.5" cy="88.1" r="5.5" fill="#2a8aa8"/>
+        <text x="793.5" y="73.1" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Chefchaouen</text>
+      </g>
+      <g class="city city-merzouga">
+        <circle cx="892.8" cy="435.5" r="9" fill="white" opacity="0.95"/>
+        <circle cx="892.8" cy="435.5" r="5.5" fill="#c99a4b"/>
+        <text x="908.8" y="457.5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Merzouga</text>
+      </g>
+      <g class="city city-essaouira">
+        <circle cx="355.9" cy="400.7" r="9" fill="white" opacity="0.95"/>
+        <circle cx="355.9" cy="400.7" r="5.5" fill="#176b93"/>
+        <text x="245.9" y="420.7" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Essaouira</text>
+      </g>
+      <g class="city city-rabat">
+        <circle cx="630.4" cy="185.8" r="9" fill="white" opacity="0.95"/>
+        <circle cx="630.4" cy="185.8" r="5.5" fill="#a6192e"/>
+        <text x="646.4" y="205.8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Rabat</text>
+      </g>
+      <g class="city city-tangier">
+        <circle cx="724.3" cy="35.3" r="9" fill="white" opacity="0.95"/>
+        <circle cx="724.3" cy="35.3" r="5.5" fill="#176b93"/>
+        <text x="739.3" y="15.3" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Tangier</text>
+      </g>
+      <g class="city city-ait-ben-haddou">
+        <circle cx="602.0" cy="440.0" r="9" fill="white" opacity="0.95"/>
+        <circle cx="602.0" cy="440.0" r="5.5" fill="#c99a4b"/>
+        <text x="620.0" y="468.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#5b3b24">Aït Ben Haddou</text>
+      </g>
+</svg>

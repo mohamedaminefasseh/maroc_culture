@@ -1,0 +1,23 @@
+{
+  "name": "discover-morocco-culture-travel",
+  "version": "1.0.0",
+  "description": "A professional full-stack Morocco culture and tourism website with Google and Leaflet map support.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "morocco",
+    "tourism",
+    "culture",
+    "express",
+    "leaflet"
+  ],
+  "author": "Aya Gout project",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.16"
+  }
+}

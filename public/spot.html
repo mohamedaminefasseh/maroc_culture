@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Découvrez le meilleur spot à visiter — détails, histoire et culture du monument principal." />
+  <title>Meilleur Spot — Découvrez le Maroc</title>
+  <link rel="icon" href="/assets/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <style>
+    .spot-hero {
+      position: relative;
+      height: 450px;
+      overflow: hidden;
+      background: #1a0a06;
+    }
+    .spot-hero img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      opacity: .65;
+    }
+    .spot-hero-overlay {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 48px 24px;
+      background: linear-gradient(to top, rgba(10,3,1,.8) 0%, transparent 100%);
+      text-align: center;
+    }
+    .spot-hero-overlay .eyebrow {
+      color: #e8c36a; font-size: .85rem; font-weight: 800;
+      letter-spacing: .2em; text-transform: uppercase; margin-bottom: 12px;
+    }
+    .spot-hero-overlay h1 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      color: #fff; margin: 0 0 15px;
+    }
+    .spot-hero-overlay .spot-badge {
+      background: var(--green, #2e7d32);
+      color: #fff; font-weight: 700;
+      padding: 10px 24px; border-radius: 999px;
+      font-size: 1.1rem;
+    }
+
+    .spot-body {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .spot-intro {
+      font-size: 1.25rem;
+      color: #241710;
+      line-height: 1.6;
+      text-align: center;
+      margin-bottom: 50px;
+      font-weight: 500;
+      font-family: "Playfair Display", serif;
+    }
+
+    .spot-info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .spot-info-card {
+      background: #fff;
+      border-radius: 20px;
+      border: 1px solid rgba(100,16,28,.08);
+      padding: 35px;
+      box-shadow: 0 5px 25px rgba(0,0,0,.04);
+    }
+    .spot-info-card h3 {
+      color: var(--red-dark);
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .spot-info-card p {
+      color: #5a3d2b;
+      line-height: 1.7;
+      font-size: 1rem;
+      text-align: justify;
+    }
+
+    .spot-highlights {
+      background: #fdfaf6;
+      border-radius: 24px;
+      padding: 45px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .spot-highlights h2 {
+      font-family: "Playfair Display", serif;
+      color: var(--red-dark);
+      margin-bottom: 30px;
+    }
+    .highlight-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .highlight-pills span {
+      background: #fff;
+      border: 1px solid var(--gold);
+      color: #594630;
+      padding: 10px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .spot-back-bar {
+      background: #fff;
+      border-bottom: 1px solid rgba(100,16,28,.08);
+      padding: 15px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .spot-back-bar a {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--red-dark); font-weight: 700;
+      text-decoration: none; font-size: 0.95rem;
+    }
+
+    .skeleton-hero {
+      height: 450px;
+      background: #f0e8df;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="spot-back-bar">
+    <a href="/#destinations">← Retour aux destinations</a>
+  </div>
+
+  <div id="spotLoader" style="text-align:center; padding:100px;">
+    <p>Chargement du spot...</p>
+  </div>
+
+  <div id="spotContent" style="display:none">
+    <div class="spot-hero">
+      <img id="spotImg" src="" alt="" />
+      <div class="spot-hero-overlay">
+        <p class="eyebrow" id="spotCity"></p>
+        <h1 id="spotName"></h1>
+        <span class="spot-badge" id="spotBadge"></span>
+      </div>
+    </div>
+
+    <div class="spot-body">
+      <p class="spot-intro" id="spotIntro"></p>
+
+      <div class="spot-info-grid">
+        <div class="spot-info-card">
+          <h3>🏛️ Patrimoine</h3>
+          <p id="spotHeritage"></p>
+        </div>
+        <div class="spot-info-card">
+          <h3>🎨 Artisanat & Culture</h3>
+          <p id="spotCulture"></p>
+        </div>
+      </div>
+
+      <div class="spot-highlights">
+        <h2>À ne pas manquer</h2>
+        <div class="highlight-pills" id="spotHighlights"></div>
+      </div>
+
+      <div style="text-align:center;">
+        <p style="color:#967a65; font-style:italic; margin-bottom:20px;">Prêt à explorer ?</p>
+        <a href="/" class="link-btn" style="display:inline-block; padding:15px 40px; border:2px solid var(--red-dark); color:var(--red-dark); border-radius:999px; text-decoration:none; font-weight:800;">RETOURNER À LA CARTE</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="spotError" style="display:none; text-align:center; padding:100px;">
+    <h2>Oups !</h2>
+    <p>Nous n'avons pas trouvé ce spot.</p>
+    <a href="/" style="color:var(--red-dark); font-weight:bold;">Retour à l'accueil</a>
+  </div>
+
+  <script src="/assets/js/spot.js" defer></script>
+</body>
+</html>

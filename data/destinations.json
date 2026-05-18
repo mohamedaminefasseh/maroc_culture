@@ -1,0 +1,614 @@
+[
+  {
+    "id": 1,
+    "slug": "marrakech",
+    "name": "Marrakech",
+    "tagline": "La ville rouge des conteurs, des souks et des places au crépuscule.",
+    "region": "imperial",
+    "regionLabel": "Ville impériale",
+    "markerColor": "red",
+    "scene": "Place Jemaa el-Fna et quartier de la Koutoubia",
+    "lat": 31.625502,
+    "lng": -7.988936,
+    "zoom": 15,
+    "image": "/assets/images/marrakech-jemaa-el-fna.jpg",
+    "badge": "Jemaa el-Fna",
+    "duration": "2–3 jours",
+    "bestSeason": "Printemps & automne",
+    "description": "Marrakech est l'une des villes les plus dynamiques du Maroc. Sa médina mélange souks traditionnels, riads, jardins, conteurs, stands de nourriture et monuments historiques. Le visuel se concentre sur l'atmosphère de Jemaa el-Fna avec le minaret de la Koutoubia : le cœur de la vieille ville au crépuscule.",
+    "highlights": [
+      "Jemaa el-Fna",
+      "Extérieur de la Koutoubia",
+      "Palais de la Bahia",
+      "Jardin Majorelle",
+      "Souks de la médina"
+    ],
+    "experience": "Commencez près de Jemaa el-Fna en fin d'après-midi, marchez dans les souks, puis profitez d'une vue en terrasse lorsque la place s'anime avec la musique et les spectacles de rue.",
+    "mapLabel": "Place Jemaa el-Fna",
+    "mapsQuery": "Jemaa el-Fna Marrakech Morocco",
+    "culture": "Marrakech est un carrefour d'influences amazighes, andalouses et sahariennes. Sa culture vit à travers Jemaa el-Fna : conteurs, musiciens, vendeurs de jus et cafés en terrasse qui transforment la place en théâtre à ciel ouvert.",
+    "heritage": "La ville est liée aux périodes almoravide et saadienne, avec la mosquée Koutoubia, le Palais de la Bahia, les Tombeaux Saadiens et ses riads traditionnels.",
+    "localFood": "Goûtez la tanjia marrakchia, viande longuement mijotée en pot de terre, ainsi que la soupe harira, les dattes et le msemen.",
+    "craft": "Marrakech est célèbre pour sa maroquinerie, ses lanternes, ses tapis, ses épices, son bois sculpté et la ferronnerie.",
+    "visitTip": "L'ambiance de Jemaa el-Fna est à son apogée après le coucher du soleil. Marquez Jemaa el-Fna sur la carte pour illustrer cette scène.",
+    "seasonInfo": {
+      "ideal": "Mars à Mai — Septembre à Novembre",
+      "why": "Le printemps et l'automne offrent des températures agréables (18–28 °C) idéales pour explorer la médina, les souks et Jemaa el-Fna sans souffrir de la chaleur.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Temps doux et ensoleillé. La végétation des jardins est au maximum. Idéal pour les visites de plein air et les balades dans les ruelles."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 2,
+          "desc": "Chaleur extrême, souvent 38–42 °C. À éviter si possible. Privilégiez les sorties tôt le matin ou en soirée uniquement."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Saison idéale. Températures parfaites, ambiance festive et couchers de soleil spectaculaires sur Jemaa el-Fna."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "❄️",
+          "rating": 3,
+          "desc": "Doux et agréable en journée (12–18 °C). Les nuits peuvent être fraîches. Moins de touristes, bon rapport qualité-prix."
+        }
+      ],
+      "tip": "Réservez les riads à l'avance en avril-mai et en octobre, qui sont les périodes les plus demandées."
+    }
+  },
+  {
+    "id": 2,
+    "slug": "casablanca",
+    "name": "Casablanca",
+    "tagline": "Le Maroc moderne face à l'Atlantique.",
+    "region": "coastal",
+    "regionLabel": "Ville côtière",
+    "markerColor": "blue",
+    "scene": "Mosquée Hassan II sur l'océan Atlantique",
+    "lat": 33.608635,
+    "lng": -7.632555,
+    "zoom": 15,
+    "image": "/assets/images/casablanca-hassan-ii-mosque.jpg",
+    "badge": "Mosquée Hassan II",
+    "duration": "1–2 jours",
+    "bestSeason": "Toute l'année",
+    "description": "Casablanca est la capitale économique du Maroc et l'une de ses villes les plus contemporaines. L'image met en valeur la Mosquée Hassan II, monument majestueux où artisanat marocain, détails en zellige et paysages océaniques se rencontrent.",
+    "highlights": [
+      "Mosquée Hassan II",
+      "Corniche d'Ain Diab",
+      "Quartier des Habous",
+      "Place des Nations Unies",
+      "Architecture Art Déco"
+    ],
+    "experience": "Visitez le quartier de la Mosquée Hassan II, promenez-vous sur la corniche atlantique, puis découvrez le contraste entre les boulevards modernes et le quartier traditionnel des Habous.",
+    "mapLabel": "Mosquée Hassan II",
+    "mapsQuery": "Hassan II Mosque Casablanca Morocco",
+    "culture": "Casablanca incarne le Maroc moderne : affaires, vie côtière, cafés, bâtiments Art Déco et énergie urbaine. Elle montre comment le Maroc relie tradition et vie métropolitaine.",
+    "heritage": "La Mosquée Hassan II est le principal monument culturel ici. Elle combine une échelle monumentale à l'artisanat marocain : plâtre sculpté, zellige et bois de cèdre.",
+    "localFood": "Casablanca est excellente pour les fruits de mer, le poisson grillé, les salades marocaines et la culture des cafés le long de la Corniche.",
+    "craft": "Cherchez des articles traditionnels dans le quartier des Habous, où arches, librairies, pâtisseries et boutiques d'artisans créent un quartier historique apaisant.",
+    "visitTip": "Placez le marqueur sur la mosquée Hassan II, car la photo illustre précisément la mosquée au bord de l'Atlantique.",
+    "seasonInfo": {
+      "ideal": "Toute l'année",
+      "why": "Le climat atlantique de Casablanca est l'un des plus stables du Maroc, avec des températures agréables toute l'année grâce à la brise de l'océan.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Températures douces (18–24 °C), ciels bleus, promenades sur la Corniche très agréables. Excellent moment."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 4,
+          "desc": "Chaud mais tempéré par l'Atlantique (24–28 °C). Plages animées, ambiance estivale le long de la Corniche."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Agréable, mer encore chaude. Moins de monde qu'en été. Idéal pour découvrir la ville calmement."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "🌧️",
+          "rating": 3,
+          "desc": "Légères pluies possibles mais températures douces (12–18 °C). La Mosquée Hassan II est magnifique par temps nuageux."
+        }
+      ],
+      "tip": "La Mosquée Hassan II peut être visitée à l'intérieur uniquement lors des visites guidées. Vérifiez les horaires à l'avance."
+    }
+  },
+  {
+    "id": 3,
+    "slug": "fes",
+    "name": "Fès",
+    "tagline": "Une médina médiévale vivante, entre savoir et artisanat.",
+    "region": "imperial",
+    "regionLabel": "Ville impériale",
+    "markerColor": "red",
+    "scene": "Tannerie Chouara au sein de Fès el-Bali",
+    "lat": 34.066127,
+    "lng": -4.971014,
+    "zoom": 16,
+    "image": "/assets/images/fes-chouara-tannery.jpg",
+    "badge": "Tannerie Chouara",
+    "duration": "2–3 jours",
+    "bestSeason": "Printemps & automne",
+    "description": "Fès est la capitale spirituelle et intellectuelle du Maroc, célèbre pour Fès el-Bali, ses madrasas, ses artisans et ses ruelles étroites. L'image illustre la tannerie Chouara, l'un des sites artisanaux les plus remarquables de la ville.",
+    "highlights": [
+      "Tannerie Chouara",
+      "Quartier Al Quaraouiyine",
+      "Madrasa Bou Inania",
+      "Bab Boujloud",
+      "Médina de Fès el-Bali"
+    ],
+    "experience": "Entrez par Bab Boujloud, suivez les ruelles de la médina avec un guide, puis visitez la terrasse d'une tannerie pour comprendre la tradition du cuir qui façonne Fès depuis des siècles.",
+    "mapLabel": "Tannerie Chouara",
+    "mapsQuery": "Chouara Tannery Fes Morocco",
+    "culture": "Fès est l'une des capitales culturelles les plus profondes du Maroc. Sa médina est un monde d'artisans, d'écoles coraniques, de fontaines, de marchés et d'ateliers familiaux où les compétences se transmettent de génération en génération.",
+    "heritage": "L'image montre la tannerie Chouara, un célèbre site de production de cuir. La ville est également associée à Al Quaraouiyine, aux madrasas et à l'urbanisme traditionnel des médinas.",
+    "localFood": "La cuisine fassie est raffinée : sucré-salé, pastilla, viandes mijotées, olives, citron confit et pâtisseries fines.",
+    "craft": "Fès est réputée pour le travail du cuir, les mosaïques zellige, la dinanderie, la broderie, le bois sculpté et la poterie en céramique.",
+    "visitTip": "Utilisez un guide pour la médina et marquez la Tannerie Chouara pour cette image, car elle montre les bassins de teinture.",
+    "seasonInfo": {
+      "ideal": "Mars à Mai — Septembre à Novembre",
+      "why": "Les températures modérées du printemps et de l'automne permettent d'explorer la médina dense et les tanneries sans épuisement.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Parfait pour arpenter les ruelles de Fès el-Bali. Les couleurs de la tannerie Chouara sont plus vives avec la lumière printanière."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 2,
+          "desc": "Très chaud et humide dans la médina. Les odeurs des tanneries s'intensifient. Non recommandé pour les visites longues."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Meilleure période. Températures idéales, lumière chaude sur les toits de la médina, artisans au travail."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "❄️",
+          "rating": 3,
+          "desc": "Frais voire froid avec possibilité de neige en altitude proche. La médina est moins fréquentée, atmosphère authentique garantie."
+        }
+      ],
+      "tip": "Engagez un guide officiel pour la médina de Fès — c'est indispensable pour ne pas se perdre et accéder aux meilleures terrasses des tanneries."
+    }
+  },
+  {
+    "id": 4,
+    "slug": "chefchaouen",
+    "name": "Chefchaouen",
+    "tagline": "La médina bleue des montagnes du Rif.",
+    "region": "mountain",
+    "regionLabel": "Médina de montagne",
+    "markerColor": "cyan",
+    "scene": "Rues peintes en bleu de l'ancienne médina",
+    "lat": 35.16878,
+    "lng": -5.2636,
+    "zoom": 15,
+    "image": "/assets/images/chefchaouen-blue-medina.jpg",
+    "badge": "Médina Bleue",
+    "duration": "1–2 jours",
+    "bestSeason": "Printemps",
+    "description": "Chefchaouen est connue pour ses paisibles ruelles bleues, son décor de montagnes et son atmosphère détendue. Le visuel se concentre sur les escaliers de la médina, les murs bleus et les plantes en pots qui rendent la ville unique.",
+    "highlights": [
+      "Médina bleue",
+      "Ras El Maa",
+      "Point de vue de la Mosquée Espagnole",
+      "Place Outa el Hammam",
+      "Randonnées dans le Rif"
+    ],
+    "experience": "Prenez le temps de flâner dans les ruelles bleues, arrêtez-vous pour un thé sur la place principale, puis montez vers la Mosquée Espagnole pour le coucher du soleil.",
+    "mapLabel": "Médina de Chefchaouen",
+    "mapsQuery": "Chefchaouen Medina Morocco",
+    "culture": "Chefchaouen est calme, artistique et ancrée dans la montagne. Sa médina bleue est liée à l'identité locale, à l'hospitalité, aux petites maisons d'hôtes et à la lenteur du rythme de vie.",
+    "heritage": "L'ancienne médina s'est développée avec des influences andalouses et amazighes. Ses murs bleus et blancs, ses petites places et ses escaliers créent une atmosphère urbaine singulière.",
+    "localFood": "Goûtez le fromage de chèvre de montagne, l'huile d'olive, le pain traditionnel, les tajines et le thé à la menthe sur la place.",
+    "craft": "Les boutiques locales vendent des couvertures tissées, des vêtements en laine, du cuir et de petits souvenirs peints inspirés par la ville bleue.",
+    "visitTip": "Pour la carte, marquez l'ancienne médina car la photo montre les ruelles bleues, et non la ville moderne à l'extérieur.",
+    "seasonInfo": {
+      "ideal": "Avril à Juin",
+      "why": "Le printemps est la saison reine de Chefchaouen. Les fleurs ornent les ruelles bleues, la lumière est douce et les températures de montagne sont parfaites.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Saison absolument parfaite. Fleurs dans les ruelles, lumière idéale pour la photographie, températures agréables (15–22 °C)."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 4,
+          "desc": "Chaud mais supportable grâce à l'altitude du Rif. Nombreux touristes. Les couleurs bleues sont magnifiques sous le soleil."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 4,
+          "desc": "Beau temps, moins de monde. Lumière dorée sur les murs bleus. Idéal pour les photos du matin tôt."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "❄️",
+          "rating": 2,
+          "desc": "Froid de montagne prononcé, possibilité de neige. Beaucoup de commerces fermés. Ambiance très locale mais austère."
+        }
+      ],
+      "tip": "Visitez les ruelles bleues très tôt le matin (avant 8h) pour avoir les lieux pour vous seul et une lumière photographique parfaite."
+    }
+  },
+  {
+    "id": 5,
+    "slug": "merzouga",
+    "name": "Merzouga",
+    "tagline": "Porte d'entrée vers les dunes dorées de l'Erg Chebbi.",
+    "region": "desert",
+    "regionLabel": "Désert",
+    "markerColor": "gold",
+    "scene": "Dunes de l'Erg Chebbi près de Merzouga",
+    "lat": 31.100112,
+    "lng": -4.001907,
+    "zoom": 13,
+    "image": "/assets/images/merzouga-erg-chebbi.jpg",
+    "badge": "Erg Chebbi",
+    "duration": "1–2 nuits",
+    "bestSeason": "Octobre–Avril",
+    "description": "Merzouga est le point de départ classique vers le Sahara marocain. L'image représente les dunes de l'Erg Chebbi, les caravanes de chameaux, la lumière chaude du désert et le silence si particulier de cette région.",
+    "highlights": [
+      "Dunes de l'Erg Chebbi",
+      "Randonnée à dos de chameau",
+      "Camp dans le désert",
+      "Lever de soleil sur les dunes",
+      "Musique Gnawa à Khamlia"
+    ],
+    "experience": "Arrivez avant le coucher du soleil, partez dans les dunes, dormez dans un campement, puis réveillez-vous tôt pour voir le sable virer de l'or au rose à l'aube.",
+    "mapLabel": "Dunes de l'Erg Chebbi",
+    "mapsQuery": "Erg Chebbi Merzouga Morocco",
+    "culture": "Merzouga est façonnée par la vie saharienne, l'hospitalité du désert, les traditions nomades et la musique de Khamlia. L'expérience est axée sur le silence, les étoiles et la connexion au désert.",
+    "heritage": "L'image représente l'Erg Chebbi, le grand champ de dunes. C'est l'un des paysages sahariens les plus emblématiques du Maroc et une étape historique des routes du désert.",
+    "localFood": "Attendez-vous à du tajine, du pain cuit dans le sable ou des fours d'argile, des dattes, du thé et des dîners simples sous les étoiles.",
+    "craft": "L'artisanat du désert comprend des textiles tissés, des foulards, des bijoux et des motifs d'inspiration amazighe.",
+    "visitTip": "Le bon marqueur est les dunes de l'Erg Chebbi près de Merzouga. Le lever et le coucher du soleil sont idéaux pour les photos.",
+    "seasonInfo": {
+      "ideal": "Octobre à Avril",
+      "why": "Le désert de l'Erg Chebbi est impraticable en été à cause de la chaleur extrême. L'hiver et le printemps offrent des conditions idéales pour les nuits sous les étoiles.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 4,
+          "desc": "Températures agréables (20–30 °C). Les dunes sont dorées, les nuits fraîches idéales pour camper. Quelques vents de sable possibles."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "🔥",
+          "rating": 1,
+          "desc": "Température pouvant dépasser 50 °C dans les dunes. Absolument déconseillé. Dangereux pour la santé."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Excellente période. Chaleur réduite, lumière magnifique, ciel dégagé pour observer les étoiles la nuit."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "❄️",
+          "rating": 5,
+          "desc": "Meilleure saison. Journées ensoleillées (15–20 °C), nuits froides sous un ciel étoilé exceptionnel. Le contraste chaud-froid est une expérience unique."
+        }
+      ],
+      "tip": "Prévoyez des vêtements chauds même en hiver — les nuits dans le désert peuvent descendre près de 0 °C."
+    }
+  },
+  {
+    "id": 6,
+    "slug": "essaouira",
+    "name": "Essaouira",
+    "tagline": "Vent de l'Atlantique, bateaux bleus et murailles fortifiées.",
+    "region": "coastal",
+    "regionLabel": "Ville côtière",
+    "markerColor": "blue",
+    "scene": "Port de pêche d'Essaouira et murs de la Skala",
+    "lat": 31.507365,
+    "lng": -9.774043,
+    "zoom": 16,
+    "image": "/assets/images/essaouira-harbor-skala.jpg",
+    "badge": "Port de Pêche",
+    "duration": "1–2 jours",
+    "bestSeason": "Printemps & été",
+    "description": "Essaouira combine l'air de l'océan, des fortifications portugaises, une architecture blanche et bleue et un célèbre port de pêche en activité. Le visuel se concentre sur les bateaux bleus et les remparts.",
+    "highlights": [
+      "Port de pêche",
+      "Skala de la Ville",
+      "Médina",
+      "Promenade de la plage",
+      "Marché aux poissons"
+    ],
+    "experience": "Promenez-vous dans le port le matin, explorez les boutiques d'artisans de la médina, puis dégustez des fruits de mer près du port avant le coucher du soleil sur les remparts.",
+    "mapLabel": "Port d'Essaouira",
+    "mapsQuery": "Essaouira Port Morocco",
+    "culture": "Essaouira a une identité résolument côtière : bateaux, mouettes, remparts, vent, festivals de musique et médina décontractée. Elle mêle influences amazighes, arabes, juives et portugaises.",
+    "heritage": "La photo montre le port de pêche et les remparts. Essaouira est connue pour sa Skala, ses bastions, ses bateaux bleus et sa médina classée par l'UNESCO.",
+    "localFood": "Les poissons grillés frais et les fruits de mer sont rois. Salades marocaines, sardines, calamars et pâtisseries aux amandes complètent l'offre.",
+    "craft": "Essaouira est réputée pour le travail du bois de thuya, ses petites galeries d'art, les bijoux en argent et les textiles.",
+    "visitTip": "Marquez la zone du port / Skala car l'image montre les bateaux bleus et les fortifications au bord de l'eau.",
+    "seasonInfo": {
+      "ideal": "Printemps & début été",
+      "why": "La brise atlantique constante rend Essaouira agréable même en été. C'est l'une des destinations marocaines les plus confortables toute l'année.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Temps doux, mer vivifiante, port animé, médina agréable. La lumière atlantique est magnifique pour les photos du port."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 4,
+          "desc": "Vent constant (surnommée « ville des vents »). Idéal pour les amateurs de kitesurf et windsurf. Températures douces (22–26 °C)."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 4,
+          "desc": "Mer encore douce, moins de vent, ambiance calme. Bonne période pour les balades le long des remparts."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "🌧️",
+          "rating": 3,
+          "desc": "Quelques jours pluvieux, mais souvent ensoleillé. Moins de touristes, ville plus authentique. Fruits de mer excellents."
+        }
+      ],
+      "tip": "Le Festival Gnaoua, l'un des plus grands festivals de musique du Maroc, se tient généralement à Essaouira en juin."
+    }
+  },
+  {
+    "id": 7,
+    "slug": "rabat",
+    "name": "Rabat",
+    "tagline": "Une capitale sereine où l'histoire rencontre l'Atlantique.",
+    "region": "imperial",
+    "regionLabel": "Capitale / Impériale",
+    "markerColor": "red",
+    "scene": "Le site historique de la Tour Hassan",
+    "lat": 34.024018,
+    "lng": -6.822737,
+    "zoom": 16,
+    "image": "/assets/images/rabat-hassan-tower.jpg",
+    "badge": "Tour Hassan",
+    "duration": "1–2 jours",
+    "bestSeason": "Toute l'année",
+    "description": "Rabat est la capitale administrative du Maroc, élégante et organisée, tout en étant riche en patrimoine. L'image montre la Tour Hassan, l'un des symboles de la ville, entourée de colonnes et de jardins.",
+    "highlights": [
+      "Tour Hassan",
+      "Mausolée de Mohammed V",
+      "Kasbah des Oudayas",
+      "Chellah",
+      "Front de mer du Bouregreg"
+    ],
+    "experience": "Commencez par la Tour Hassan et le mausolée, continuez vers la Kasbah des Oudayas, puis terminez la journée près de la corniche du Bouregreg.",
+    "mapLabel": "Tour Hassan",
+    "mapsQuery": "Hassan Tower Rabat Morocco",
+    "culture": "Rabat semble plus calme et organisée que de nombreuses villes marocaines. En tant que capitale, elle allie administration, histoire royale, quartiers côtiers et parcs verdoyants.",
+    "heritage": "Le site de la Tour Hassan, illustré sur l'image, comprend le minaret inachevé, les colonnes historiques et le Mausolée de Mohammed V à proximité.",
+    "localFood": "Rabat propose la cuisine marocaine classique, des fruits de mer, des pâtisseries et des cafés relaxants près du fleuve.",
+    "craft": "La médina et les environs proposent tapis, maroquinerie, poterie, broderie et vêtements traditionnels.",
+    "visitTip": "Utilisez la Tour Hassan comme repère cartographique car la photo illustre ce monument spécifique et la place historique.",
+    "seasonInfo": {
+      "ideal": "Toute l'année",
+      "why": "Rabat bénéficie d'un climat atlantique équilibré. Aucune saison n'est réellement mauvaise pour visiter la capitale.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Idéal. Température douce, jardins fleuris, la Tour Hassan et le Mausolée sont magnifiques sous le soleil printanier."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 4,
+          "desc": "Agréable grâce à l'Atlantique (25–28 °C). Quelques jours chauds mais sans excès. Bonne période culturelle."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Très agréable. Moins de monde que l'été, lumière chaude parfaite pour visiter la Kasbah des Oudayas."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "🌧️",
+          "rating": 3,
+          "desc": "Pluies modérées, températures douces (10–16 °C). Bonne période hors saison avec des tarifs réduits."
+        }
+      ],
+      "tip": "Combinez Rabat avec Salé (rive opposée du Bouregreg) pour une demi-journée supplémentaire de découverte culturelle."
+    }
+  },
+  {
+    "id": 8,
+    "slug": "tangier",
+    "name": "Tanger",
+    "tagline": "La porte nord entre l'Afrique et l'Europe.",
+    "region": "coastal",
+    "regionLabel": "Ville côtière",
+    "markerColor": "blue",
+    "scene": "La Kasbah de Tanger surplombant la baie",
+    "lat": 35.786497,
+    "lng": -5.813646,
+    "zoom": 15,
+    "image": "/assets/images/tangier-kasbah-overlook.jpg",
+    "badge": "Vue de la Kasbah",
+    "duration": "1–2 jours",
+    "bestSeason": "Printemps & automne",
+    "description": "Tanger se trouve au point de rencontre de l'Atlantique et de la Méditerranée. L'image représente la médina blanche et la vue côtière depuis la Kasbah, montrant le caractère lumineux du nord.",
+    "highlights": [
+      "Kasbah",
+      "Médina de Tanger",
+      "Cap Spartel",
+      "Grottes d'Hercule",
+      "Grand Socco"
+    ],
+    "experience": "Explorez la Kasbah et les ruelles de la médina, admirez la vue sur la baie depuis la ville haute, puis dirigez-vous vers le Cap Spartel.",
+    "mapLabel": "Kasbah de Tanger",
+    "mapsQuery": "Kasbah Tangier Morocco",
+    "culture": "Tanger a toujours été une ville de croisements : influences africaines, européennes, arabes, espagnoles et françaises. Sa culture semble internationale tout en restant profondément marocaine.",
+    "heritage": "La photo représente le point de vue de la Kasbah, avec ses bâtiments blancs, ses détails bleus et sa vue sur la mer. L'histoire de Tanger est liée à la diplomatie, aux écrivains et à sa géographie.",
+    "localFood": "Fruits de mer, tajine de poisson, pain frais, olives, thé et pâtisseries du nord du Maroc sont à l'honneur.",
+    "craft": "La médina propose des textiles, du cuir, des lampes en laiton et des souvenirs typiques du nord.",
+    "visitTip": "Marquez la zone du Musée de la Kasbah pour cette image, car c'est là que la ville blanche et la vue sur la baie sont le mieux représentées.",
+    "seasonInfo": {
+      "ideal": "Printemps & automne",
+      "why": "Tanger est agréable toute l'année mais le printemps et l'automne offrent la meilleure combinaison de soleil, températures douces et atmosphère locale.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Doux et ensoleillé (16–22 °C). Les vues sur le détroit de Gibraltar sont dégagées. Idéal pour découvrir la Kasbah et la médina."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "☀️",
+          "rating": 3,
+          "desc": "Chaud et très fréquenté, surtout par les Marocains de la diaspora. Trafic dense mais ambiance festive."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Très agréable. Mer encore chaude, lumière magnifique sur la baie, moins de foule."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "🌧️",
+          "rating": 3,
+          "desc": "Pluies fréquentes (influence méditerranéenne). Certains jours ensoleillés magnifiques. La ville est très locale en hiver."
+        }
+      ],
+      "tip": "Depuis Tanger, une excursion à Cap Spartel (30 min) pour voir le point de rencontre Atlantique-Méditerranée vaut absolument le détour."
+    }
+  },
+  {
+    "id": 9,
+    "slug": "ait-ben-haddou",
+    "name": "Aït Ben Haddou",
+    "tagline": "Un ksar de terre sur l'ancienne route des caravanes.",
+    "region": "desert",
+    "regionLabel": "Ksar / Route du désert",
+    "markerColor": "gold",
+    "scene": "Le Ksar d'Aït Ben Haddou au bord de la vallée d'Ounila",
+    "lat": 31.04722,
+    "lng": -7.12889,
+    "zoom": 16,
+    "image": "/assets/images/ait-ben-haddou-ksar.jpg",
+    "badge": "Ksar de l'UNESCO",
+    "duration": "Demi-journée",
+    "bestSeason": "Octobre–Avril",
+    "description": "Aït Ben Haddou est un village de terre fortifié près de Ouarzazate, l'un des sites du désert les plus célèbres du Maroc. L'image souligne l'architecture en argile, les palmiers et le paysage rocheux.",
+    "highlights": [
+      "Point de vue du Ksar",
+      "Architecture de terre",
+      "Vallée d'Ounila",
+      "Ancienne route des caravanes",
+      "Lieux de tournage"
+    ],
+    "experience": "Traversez vers le ksar, grimpez par les passages étroits jusqu'au point de vue supérieur, et prenez le temps d'apprécier la construction en pisé.",
+    "mapLabel": "Ksar d'Aït Ben Haddou",
+    "mapsQuery": "Ksar of Ait Ben Haddou Morocco",
+    "culture": "Aït Ben Haddou représente la culture du sud : architecture de terre, route des caravanes, héritage amazigh et oasis. Le ksar montre comment les communautés se sont adaptées au climat.",
+    "heritage": "L'image montre le ksar fortifié. C'est l'une des scènes du patrimoine UNESCO les plus célèbres du Maroc, liée à l'ancienne route entre le Sahara et Marrakech.",
+    "localFood": "Les repas locaux incluent tajines, couscous, dattes, pain et thé servis dans les maisons d'hôtes.",
+    "craft": "Cherchez des tapis amazighs, des textiles tissés, des peintures locales et des souvenirs de la route du désert.",
+    "visitTip": "Le marqueur correct est le Ksar d'Aït Ben Haddou lui-même, et non le centre de Ouarzazate.",
+    "seasonInfo": {
+      "ideal": "Octobre à Avril",
+      "why": "La région de Ouarzazate et Aït Ben Haddou est très chaude en été. Les mois d'automne à printemps offrent un confort optimal pour explorer le ksar.",
+      "seasons": [
+        {
+          "name": "Printemps",
+          "months": "Mars – Mai",
+          "icon": "🌸",
+          "rating": 5,
+          "desc": "Lumière dorée idéale sur l'argile rouge du ksar. Températures agréables (18–28 °C). Les palmiers sont verdoyants."
+        },
+        {
+          "name": "Été",
+          "months": "Juin – Août",
+          "icon": "🔥",
+          "rating": 1,
+          "desc": "Chaleur écrasante (40–45 °C). Visite très difficile. Si inévitable, allez-y tôt le matin uniquement."
+        },
+        {
+          "name": "Automne",
+          "months": "Septembre – Novembre",
+          "icon": "🍂",
+          "rating": 5,
+          "desc": "Excellente période. La lumière de l'après-midi sur les murs de terre est spectaculaire. Températures parfaites."
+        },
+        {
+          "name": "Hiver",
+          "months": "Décembre – Février",
+          "icon": "❄️",
+          "rating": 4,
+          "desc": "Journées douces et ensoleillées. Nuits froides. Le ksar désert et silencieux a une atmosphère fascinante."
+        }
+      ],
+      "tip": "La meilleure heure pour photographier le ksar est en fin d'après-midi quand la lumière chaude dore les murs d'argile."
+    }
+  }
+]

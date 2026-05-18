@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe8f7"/>
+      <stop offset="1" stop-color="#a9d5ee"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9dcc4"/>
+      <stop offset="1" stop-color="#c9b28a"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sea)"/>
+  <g opacity=".25" stroke="#ffffff" stroke-width="1">
+    <path d="M0 180H1600M0 360H1600M0 540H1600M0 720H1600M320 0V900M640 0V900M960 0V900M1280 0V900"/>
+  </g>
+  <g fill="url(#land)" stroke="#92734d" stroke-width="4" filter="url(#shadow)">
+    <path d="M188 200c88-70 208-83 315-48 84 28 153 98 161 178 8 75-48 122-95 173-48 52-85 123-156 141-71 18-150-14-196-69-51-60-71-147-55-223 11-54-14-111 26-152z"/>
+    <path d="M504 650c50 28 92 71 99 121 6 42-19 87-57 102-45 18-94-8-124-43-31-37-52-94-27-137 21-36 71-61 109-43z"/>
+    <path d="M718 180c88-41 183-43 274-24 78 16 126 64 185 111 54 43 77 105 62 168-18 75-92 94-153 126-65 33-114 109-192 93-82-16-121-94-156-165-39-77-96-168-20-309z"/>
+    <path d="M866 570c37 28 72 57 79 102 9 57-11 121-60 152-44 29-107 25-142-15-39-45-24-106-12-162 12-54 86-114 135-77z"/>
+    <path d="M1118 208c111-38 232-35 331 17 69 37 121 101 120 175-1 66-55 112-114 141-68 34-149 25-220 1-85-29-167-80-190-158-21-73 2-151 73-176z"/>
+    <path d="M1250 650c51-24 112-15 151 24 44 44 61 109 33 161-29 52-101 66-156 45-57-22-100-78-94-137 4-43 29-75 66-93z"/>
+  </g>
+  <circle cx="770" cy="383" r="9" fill="#a6192e" stroke="white" stroke-width="5"/>
+  <text x="790" y="388" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#7d1c2a">Morocco markers</text>
+  <text x="48" y="70" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#7d1c2a">World map fallback</text>
+  <text x="48" y="112" font-family="Inter, Arial, sans-serif" font-size="22" fill="#5b4d3e">If online map tiles are blocked, this local world map keeps the section visible.</text>
+  <text x="48" y="850" font-family="Inter, Arial, sans-serif" font-size="20" fill="#5b4d3e">Connect to the internet to see detailed OpenStreetMap/Esri streets, countries and cities.</text>
+</svg>
